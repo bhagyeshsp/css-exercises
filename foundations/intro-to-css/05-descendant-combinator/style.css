@@ -1,0 +1,18 @@
+
+/* This code does the same by using class names
+/* .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* This code does the same by using element types */
+div {
+    p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    }
+}
