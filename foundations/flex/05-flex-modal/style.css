@@ -36,6 +36,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -74,7 +75,7 @@ button.cancel {
 .content-wrapper {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */ /* If we add this, there won't be any need to add flex-shrink to the icon. */
   gap: 8px;
 }
 
